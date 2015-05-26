@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>UptownFunkify! The Emergency Uptown Funk Button!</title>
+  <meta name="description" content="Uptown Funkify your life! Make your life instantly awesome and funky with this site!">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="disco.js"></script>
+    
+<script type="text/javascript">
+//<![CDATA[
+  (function() {
+    var shr = document.createElement('script');
+    shr.setAttribute('data-cfasync', 'false');
+    shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+    shr.type = 'text/javascript'; shr.async = 'true';
+    shr.onload = shr.onreadystatechange = function() {
+      var rs = this.readyState;
+      if (rs && rs != 'complete' && rs != 'loaded') return;
+      var site_id = '27aec9d8d1668e3aedafe8b1c67a1947';
+      try { Shareaholic.init(site_id); } catch (e) {}
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(shr, s);
+  })();
+//]]>
+</script>
+    
+
+
+</head>
+<body id="body2">
+
+
+  <div class="top-bar">tip: if you click around the page the background will get uptown funkier (-:<br>(warning: that means it will change colors faster)</div>  
+
+<div class="container">
+    <div class="row">
+      <div class="twelve columns title">
+        <h4>UptownFunkify!</h4>
+
+              <p class="play-btn-p" id="playvideo" onclick="refreshIframe();"><i class="fa fa-play-circle-o play-btn"></i>
+              
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Bottom -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-7004039348107787"
+                     data-ad-slot="9984523356"
+                     data-ad-format="auto"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              
+            </p>
+              <p class="stop-btn playSound" id="stopvideo" onclick="stopIframe();">stop</i></p>
+            <div class='shareaholic-canvas' style=" margin-bottom: -10px;" data-app='share_buttons' data-app-id='15441598'></div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="M3575H492V4W2">
+<table>
+<tr><td><input type="hidden" name="on0" value="Like the site? Why not buy me some coffee?">Like the site? Why not buy me some coffee?</td></tr><tr><td><select name="os0" style="color:black">
+	<option value="cup of good coffee">A good cup of coffee. $3.00 USD</option>
+	<option value="cup of crappy coffee">A crappy cup of (thankful) coffee. $1.00 USD</option>
+	<option value="cup of wonderful expresso">A wonderful cup of god damn beautiful expresso! $8.00 USD</option>
+	<option value="yeah im going full out">I may be in love with you... $10.00 USD </option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+      </center>
+        </div>
+
+    </div>
+  </div>
+<div class="bottom-bar" onload="disco()"><a target="_blank" href="https://www.youtube.com/watch?v=OPf0YbXqDm0">link to official youtube music video</i></a> - created by <a href="http://macleodsawyer.com/">macleod sawyer</a> - follow me on <a href="https://twitter.com/mxsawyer">twitter</a>! 
+    
+
+<script> 
+        $(document).ready(function() { 
+        var obj = document.createElement("audio"); 
+        obj.setAttribute("src", "/sound/stop.wav");
+        $.get(); 
+
+        $(".playSound").click(function() { 
+            obj.play(); 
+        }); 
+    }); 
+    </script> 
+
+<iframe id="playerid" name="Right" width="1" height="1" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
+
+<script>
+$("#playvideo").click(function(){
+var video = $("#playerid").attr("src");
+$("#playerid").attr("src","https://www.youtube.com/embed/7Ya2U8XN_Zw?autoplay=1&loop=1&playlist=7Ya2U8XN_Zw");
+$("#playerid").attr("src",video);
+ });
+    
+$("#stopvideo").click(function(){
+// $("#playerid").attr("src","https://www.youtube.com/embed/7Ya2U8XN_Zw");
+// $("#playerid").attr("src",stopvideo);
+document.getElementsByTagName("body")[0].setAttribute("class", "body2");  
+    document.getElementById("stopvideo").innerHTML = "stop";
+ });
+    
+$("#playvideo").click(function(){
+document.getElementsByTagName("body")[0].setAttribute("onclick", "disco()");  
+document.getElementsByTagName("body")[0].setAttribute("class", "body3");  
+ });
+</script>
+<script>
+function refreshIframe() {
+    var ifr = document.getElementsByName('Right')[0];
+    ifr.src = ("https://www.youtube.com/embed/7Ya2U8XN_Zw?autoplay=1&loop=1&playlist=7Ya2U8XN_Zw");
+}
+    
+function stopIframe() {
+    var ifr = document.getElementsByName('Right')[0];
+    ifr.src = ("null");
+}
+    
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45996272-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
